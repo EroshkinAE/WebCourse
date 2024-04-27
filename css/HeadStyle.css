@@ -1,6 +1,25 @@
 body {
-    background: cornsilk;
+    background: #3a3c53;
 }
 span.testtext {
     color: gold;
+    font-size: 32px;
+}
+ 
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(31, 202, 137, 0.459);
+    font-size: 40px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    color: rgb(141, 167, 28);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
 }
