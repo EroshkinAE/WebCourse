@@ -1,65 +1,28 @@
-body{
-    background-color: rgb(194, 255, 255);
-    margin: 0px;
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
-h1{
-    margin: 0px;
-    text-align: center;
-    color: black;
+
+h2 {
+    color: violet;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid;
 }
-a {
-    color: inherit;
+
+h3 {
+    font-size: 1.5em;
+}
+
+.AbMe {
+    color: #999999;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: #fb6542;
+}
+
+a:hover {
     text-decoration: none;
-}
-header{
-    background-color: rgb(120, 255, 255);
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-}
-nav ul{
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    margin: 0;
-    gap: 50px;
-    justify-content: center;
-}
-input, header button{
-    height: 30px;
-    border: 0;
-    margin: 0;
-    outline: none;
-}
-button{
-    color: white;
-    background-color: rgb(143, 143, 143);
-    cursor: pointer;
-    transition: background-color 0.1s ease-out;
-}
-button:hover{
-    background-color: rgb(75, 75, 75);
-}
-button:active{
-    background-color: black;
-}
-P, h2{
-    text-align: center;
-}
-.test {
-    list-style: none;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
-.outer {
-    border: 5px solid black;
-}
-.box {
-    padding: 10;
-    width: calc(90% - 30%);
-    background-color: rebeccapurple;
-    color: white;
 }
